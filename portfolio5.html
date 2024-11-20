@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Sanu | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #121212;
+            color: #dcdcdc;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #1c1c1c;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+        }
+        
+        .logo {
+            font-size: 2em;
+            color: #dcdcdc;
+            font-weight: bold;
+            cursor: default;
+        }
+        
+        .logo span {
+            color: #e50914;
+        }
+        
+        .navigation a {
+            font-size: 1.1em;
+            color: #b3b3b3;
+            text-decoration: none;
+            margin-right: 30px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .navigation a:hover {
+            color: #e50914;
+        }
+        
+        .btn-contact {
+            color: #dcdcdc;
+            text-decoration: none;
+            padding: 10px 25px;
+            background: #333333;
+            border-radius: 5px;
+            border: 1px solid #e50914;
+            font-weight: 500;
+            transition: background 0.3s, color 0.3s;
+        }
+        
+        .btn-contact:hover {
+            background: #e50914;
+            color: #ffffff;
+        }
+        
+        .home {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding-top: 100px;
+            background-color: #121212;
+            text-align: center;
+        }
+        
+        .content img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #333333;
+        }
+        
+        .content h2 {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .content h2 span {
+            color: #e50914;
+        }
+        
+        .content h4 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #999999;
+        }
+        
+        .content p {
+            padding: 15px 0 30px 0;
+            font-size: 1.1em;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: 0 auto;
+            color: #cccccc;
+        }
+        
+        .btn-group a {
+            color: #dcdcdc;
+            text-decoration: none;
+            padding: 10px 30px;
+            background: #333333;
+            border-radius: 5px;
+            border: 1px solid #e50914;
+            font-weight: 500;
+            margin-right: 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+        
+        .btn-group a:hover {
+            background: #e50914;
+            color: #ffffff;
+        }
+        
+        .social-icons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #333333;
+            border-radius: 50%;
+            margin: 15px 10px;
+            text-align: center;
+            line-height: 40px;
+            transition: background 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background: #e50914;
+        }
+        
+        .social-icons a i {
+            color: #dcdcdc;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>K</span>umar <span>S</span>anu</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <a href="#" class="btn-contact">Get in Touch</a>
+    </header>
+    
+    <section class="home">
+        <div class="content">
+            <img src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/ebe1cebb41b74e30a6beb1d17b66e21e.jpeg" alt="Kumar Sanu">
+            <h2>Hi, I'm <span>Kumar Sanu</span></h2>
+            <h4>Computer Science and Data Science Student at Rishihood University</h4>
+            <p>First-year Computer Science and Data Science student at Rishihood University. Aspiring tech innovator and content creator, with a passion for football, contemporary dance, and technology. Skilled in Python, HTML, CSS, C++, SQL, and experienced with Microsoft Office, team building, and creative problem solving.</p>
+            <div class="btn-group">
+                <a href="https://www.linkedin.com/in/kumar-sanu-14a588317" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ksanu1120" target="_blank">GitHub</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kumar-sanu-14a588317" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ksanu1120" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
